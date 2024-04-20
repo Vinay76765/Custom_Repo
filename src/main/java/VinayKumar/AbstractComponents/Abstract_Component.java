@@ -153,7 +153,7 @@ public class Abstract_Component {
 		
 		System.out.println(driver.findElements(By.tagName("iframe")).size());
 		driver.switchTo().frame(0);
-		
+		////
 		
 		waitForWebElementToAppear(Cardnum);
 		Cardnum.sendKeys(card);
