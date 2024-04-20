@@ -177,7 +177,7 @@ public class Abstract_Component {
 		while(it.hasNext()) {
 			driver.switchTo().window(it.next());
 		}
-		
+		////
 		Fake_Otp.sendKeys("12345");
 		Submit_Otp.click();
 		driver.switchTo().parentFrame();
